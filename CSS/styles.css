@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo and Image styling */
+#logo{
+    margin: 10px 20px;
+
+
+}
+
+#logo img{
+    height: 50px;
+    width: 50px;
+}
+
+/* Navigation bar list styling */
+
+#navbar ul {
+    display: flex;
+    border: 2px solid red;
+}
+
+#navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 5px 5px;
+    font-size: 1.1rem;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    /* We change the display to block as we want to give padding
+    By default it is inline */
+    padding: 8px 65px;
+    
+}
+
